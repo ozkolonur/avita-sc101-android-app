@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+tools:ignore="TextFields,HardcodedText" >
+
+    <TextView
+        android:id="@+id/measurementValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="335dp"
+        android:layout_toRightOf="@+id/measurementValue"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/save"
+        android:layout_alignBottom="@+id/save"
+        android:layout_alignRight="@+id/measurementValue"
+        android:text="Connect" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Press connect after AViTA-SC101 is started working"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
+
+
+
+
